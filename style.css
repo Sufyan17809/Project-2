@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+h2 {
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    letter-spacing: -2px;
+    font-size: 30px;
+}
+.bug {
+    font-family: "Montserrat", serif;
+}
+
+a {
+    font-family: "Montserrat", serif;
+    letter-spacing: 1px;
+}
+
+.dashed {
+    font-family: "Montserrat", serif;
+    letter-spacing: -2px;
+    font-weight: 700;
+}
+
+.ce {
+    letter-spacing: -2px;
+}
+
+ul {
+    gap: 15px;
+}
+
+li {
+    font-weight: bolder;
+}
+
+li a {
+    letter-spacing: -1 px;
+}
+
+.bh1 h1 {
+    font-size: 80px;
+}
+
+.bh1 h3 {
+    font-size: 40px;
+}
+.conter h4,
+h5 {
+    font-family: "Montserrat", serif;
+}
+
+.conter h4 {
+    font-weight: 500;
+}
+
+.conter h5 {
+    font-weight: 900;
+}
+
+.but a p:hover {
+    color: white;
+    transition: 0.5s;
+}
+body {
+    overflow-x: hidden;
+}
+
+.sect1 .img1 {
+    height: 85vh;
+    position: absolute;
+}
+
+.bh {
+    position: relative;
+}
+
+.icon {
+    height: 70px;
+    width: 60px;
+}
+
+.bh .icon1 {
+    height: 60px;
+}
+
+h1,
+h5 {
+    white-space: nowrap;
+}
+
+.bh1 {
+    position: relative;
+}
+
+ul {
+    position: relative;
+}
+
+ul.navbar-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.dashed {
+    border-style: dashed;
+}
+
+.b1 {
+    text-shadow: 2px 2px 2px rgb(223, 216, 216);
+}
+
+.conter {
+    margin-top: -60px;
+}
+
+.r1 {
+    height: 100vh;
+}
+
+.t1 {
+    height: 320px;
+}
+
+.t2,
+.t3 {
+    height: 150px;
+    width: 600px;
+    object-fit: cover;
+}
+
+.up {
+    position: absolute;
+    color: white;
+}
+
+.but {
+    height: 30px;
+    width: 240px;
+    white-space: nowrap;
+}
+
+.c {
+    height: 300px;
+}
+
+.r4 {
+    border: 1px solid black;
+    /* box-shadow: 1px 1px 1px 1px rgb(0, 0, 0); */
+}
+
+/* .sp{
+    overflow: hidden;
+} */
+.bot,
+.bot1 {
+    background-color: rgb(192, 15, 15);
+    border: red;
+    font-family: "Montserrat", serif;
+}
+.bot1,.bot2{
+    padding: 10px;
+    width: 300px;
+}
+
+.cont {
+    background-image: url('./images/footer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 77vh;
+}
+
+.overlay {
+    background-color: black;
+    opacity: 0.7;
+    height: 77vh;
+}
+
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.carousel .carousel-indicators button {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.cont1 p,
+h3 {
+    font-family: "Montserrat", serif;
+}
+
+.cont1 h3 {
+    font-weight: bold;
+}
+
+.cont1 {
+    margin-top: -60px;
+}
+
+.ce {
+    margin-top: 20px;
+}
+
+.bot {
+    font-family: "Montserrat", serif;
+    font-weight: bold;
+}
+
+.d,
+.upe,
+.res,
+.tab {
+    font-family: "Montserrat", serif;
+}
+
+.upe,
+.tab {
+    font-weight: bolder;
+}
+
+.res,
+.tab {
+    letter-spacing: -2px;
+}
+
+.ed {
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+}
+
+.carousel-indicators {
+    text-align: left;
+    /* float: left; */
+    /* left    : 2% !important; */
+    right: inherit;
+    margin-left: 50px;
+
+}
+
+.navbar-toggler {
+    border: 2px solid black;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+    .sp1 {
+        position: relative;
+        display: flex;
+        width: 200px;
+        margin-left: 50px;
+    }
+
+    input,
+    .bot1 {
+        width: 250px;
+    }
+
+    .conter {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 424px) {
+    .sect1 .img1 {
+        height: 100vh;
+    }
+
+    .bh1 span {
+        display: inline-block;
+    }
+
+    .cont,
+    .overlay {
+        height: 125vh;
+    }
+
+    input,
+    .bot1 {
+        width: 185px;
+    }
+
+    .sp1 {
+        position: relative;
+        display: flex;
+        width: 140px;
+        margin-left: 20px;
+    }
+
+    .conter {
+        margin-top: -40px;
+    }
+
+}
+
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    .sect1 .img1 {
+        height: 150vh;
+    }
+
+    .cont1 {
+        margin-top: 200px;
+    }
+
+    .t2 {
+        margin-top: 20px;
+    }
+
+    .car {
+        margin-top: 20px;
+    }
+
+    .cont,
+    .overlay {
+        height: 120vh;
+    }
+
+    .overlay {
+        margin-left: -10px;
+        /* margin-right: -5px; */
+    }
+
+    .sp1 {
+        position: relative;
+        display: flex;
+        width: 250px;
+        margin-bottom: 150px;
+        margin-left: 50px;
+    }
+
+    .conter {
+        margin-top: 130px;
+    }
+
+    .bh1 span {
+        padding: 40px;
+    }
+
+    .dashed {
+        font-size: 10px;
+        letter-spacing: -1px;
+    }
+
+    .fr {
+        margin-top: -100px;
+    }
+
+    .bot {
+        margin-bottom: 30px;
+    }
+
+    .main {
+        margin-top: -60px;
+    }
+
+    .info {
+        margin-top: -30px;
+    }
+
+    .sc {
+        margin-top: -40px;
+    }
+
+    .bh1 h1 {
+        font-size: 78px;
+    }
+}
+
+@media screen and (max-width: 425px) and (min-width: 375px) {
+
+    .cont,
+    .overlay {
+        height: 105vh;
+    }
+
+}
